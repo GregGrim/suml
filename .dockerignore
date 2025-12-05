@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+logs/
+*.log
+
+# Data files (optional – keep if needed in image)
+data/
+*.csv
+*.sqlite
+*.db
+
+# Notebooks (usually not needed in image)
+*.ipynb
+
+# Local config files
+.env.dev
+.env.local
+
+# Docker artifacts
+docker-compose.yml
