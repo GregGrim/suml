@@ -5,7 +5,7 @@ import json
 import joblib
 import numpy as np
 from pathlib import Path
-from typing import Tuple, Dict, Any
+from typing import Dict, Any
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier

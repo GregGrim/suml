@@ -7,7 +7,7 @@ from predict import predict
 def app():
     st.set_page_config(page_title="Iris Species Predictor", page_icon="🌸")
 
-    st.title("🌸 Iris Species Predictor")
+    st.title("🌸 Iris Species Predictor (v2)")
     st.write("Enter the flower measurements below to predict the Iris species.")
 
     # Numeric inputs
